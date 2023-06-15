@@ -1,0 +1,32 @@
+{
+  "name": "testes_cypress",
+  "version": "1.0.0",
+  "description": "DESAFIO DE AUTOMAÇÃO DE TESTE CYPRESS",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "apagar:resultado": "rm -r allure-results",
+    "apagar:report": "rm -r allure-report",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rafael Akiyama",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.14.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "allure": "^0.0.0",
+    "faker": "^6.6.6",
+    "faker-br": "^0.4.1",
+    "git": "^0.1.5",
+    "node": "^18.13.0",
+    "npm": "^9.4.0",
+    "yarm": "^0.4.0"
+  }
+}
