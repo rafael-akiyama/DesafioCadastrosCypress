@@ -23,8 +23,10 @@ Urls: Aesop Brasil: www.aesop.com.br I Natura Brasil: www.natura.com.br.
 Para rodar o projeto:
 
 Baixar e instalar:
-Cypress
-Allure
+
+- Cypress
+
+- Allure
 
 Para rodar, utilizar os comandos:
 npm run cy:run
